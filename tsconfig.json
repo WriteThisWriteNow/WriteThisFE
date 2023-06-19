@@ -1,6 +1,8 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "es6",
+    "outDir": "dist",
+    "sourceMap": true, //для розробки (для проду потрібно false - розібратися як це зробити)
     "lib": [
       "dom",
       "dom.iterable",
@@ -21,6 +23,9 @@
     "jsx": "react-jsx"
   },
   "include": [
-    "src"
+    "src/**"
+  ],
+  "exclude": [
+    "node_modules"
   ]
 }
