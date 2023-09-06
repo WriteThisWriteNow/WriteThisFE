@@ -2,7 +2,7 @@
 
 ## Requirements
 
-*To start working with the application, you need have installed Node.js v16.16.0*
+*To start working with the application, you need have installed Node.js v18.16.0*
 
 To check your current version run the command
 
